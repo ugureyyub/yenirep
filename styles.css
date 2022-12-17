@@ -1,0 +1,124 @@
+body {
+background-color: #f1f1f1;
+
+
+}
+
+.avatar {
+width: 200px;
+border-radius: 12px;
+box-shadow: 4px 4px 12px rgba(0, 0, 0.25);
+
+}
+
+.bb {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 4px; 
+    background-color: black;
+    text-align: center;
+    color:white;
+}
+
+.container {
+max-width:90%;
+margin: auto;
+
+}
+
+a {
+    color: red;
+}
+
+.blok {
+display: flex;
+margin-bottom: 30px;
+}
+
+.element1 { 
+ padding: 0 20px 0 30px; 
+ font-size: 20px; 
+/* box-sizing: border-box; */
+}
+.blok> .element1:nth-child(2) {
+    width: 40%;
+    padding-top: 50px;
+}
+
+.container bb{
+text-align: center;
+    
+}
+
+.secimler label {
+margin-bottom: 2px;
+    display: block;
+}
+
+.secimler select {
+margin-bottom: 5px;
+border-radius: 4px;
+
+
+}
+.secimler {
+width: 560px;
+font-size: 14px;
+color: #382c2c;
+display: flex;
+
+/* box-sizing: border-box; */
+
+}
+
+.secimler textarea {
+
+    border-radius: 6px;
+    outline: none;
+}
+
+.secimler > .secim1{
+width:30%;
+margin-left: 50px;
+}
+
+.secim1 select{
+padding: 3px;
+
+
+}
+
+.content {
+    position: relative;
+    background-color: bisque;
+    width: 500px;
+    border-radius: 8px;
+    /* margin-left: 550px; */
+    left: 400px;
+}
+
+.content h1 {
+    text-align: center;
+}
+
+.content input {
+margin:auto;
+}
+
+
+
+.btn {
+    background: black;
+    padding: 6px; 
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+    position: relative;
+    left: 200px;
+}
+
+.btn:hover {
+opacity: 0.7;
+
+
+}
